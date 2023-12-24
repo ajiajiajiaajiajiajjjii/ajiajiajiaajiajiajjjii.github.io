@@ -25,6 +25,14 @@ The structure is as follows:
 - `style.scss` defines the style of the website, together with the files in `_sass/`
 - `_includes/` and `layouts/` contain various html files that define how the website looks. We'll likely need to modify some of them (most likelyl `_layouts/default.html`).
 
+## Scraping
+
+
+
+## Build website from raw data
+
+
+
 
 ## Automation
 
