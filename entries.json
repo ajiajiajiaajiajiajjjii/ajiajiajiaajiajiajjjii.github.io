@@ -1,0 +1,908 @@
+ [
+  {
+    "authors": [
+      "George Papamakarios",
+      "Iain Murray"
+    ],
+    "title": "Fast epsilon-free Inference of Simulation Models with Bayesian Conditional Density Estimation",
+    "date": "May 20, 2016",
+    "target": "posterior",
+    "nn": "mixture-density",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": "[Code](https://github.com/gpapamak/epsilon_free_inference)",
+    "link": "https://arxiv.org/abs/1605.06376"
+  },
+  {
+    "authors": [
+      "Jan-Matthis Lueckmann",
+      "Pedro J. Gonçalves",
+      "Giacomo Bassetto",
+      "Kaan Öcal",
+      "Marcel Nonnenmacher",
+      "Jakob H. Macke"
+    ],
+    "title": "Flexible statistical inference for mechanistic models of neural dynamics",
+    "date": "November 6, 2017",
+    "target": "posterior",
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": "[Code](https://github.com/mackelab/delfi)",
+    "link": "https://arxiv.org/abs/1711.01861"
+  },
+  {
+    "authors": [
+      "David S. Greenberg",
+      "Marcel Nonnenmacher",
+      "Jakob H. Macke"
+    ],
+    "title": "Automatic posterior transformation for likelihood-free inference",
+    "date": "May 17, 2019",
+    "target": "posterior",
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": "[Code](https://github.com/mackelab/delfi)",
+    "link": "https://arxiv.org/abs/1905.07488"
+  },
+  {
+    "authors": [
+      "Jan-Matthis Lueckmann",
+      "Giacomo Bassetto",
+      "Theofanis Karaletsos",
+      "Jakob H. Macke"
+    ],
+    "title": "Likelihood-free inference with emulator networks",
+    "date": "May 23, 2018",
+    "target": "likelihood",
+    "nn": "deep-ensembles",
+    "samples": "MCMC",
+    "sequential": "yes",
+    "other": [],
+    "link": "https://arxiv.org/abs/1805.09294"
+  },
+  {
+    "authors": [
+      "George Papamakarios",
+      "David C. Sterratt",
+      "Iain Murray"
+    ],
+    "title": "Sequential Neural Likelihood: Fast Likelihood-free Inference with Autoregressive Flows",
+    "date": "May 18, 2018",
+    "target": "likelihood",
+    "nn": "normalizing-flows",
+    "samples": "MCMC",
+    "sequential": "yes",
+    "other": "[Code](https://github.com/gpapamak/snl)",
+    "link": "https://arxiv.org/abs/1805.07226"
+  },
+  {
+    "authors": [
+      "Stefan T. Radev",
+      "Ulf K. Mertens",
+      "Andreas Voss",
+      "Lynton Ardizzone",
+      "Ullrich Köthe"
+    ],
+    "title": "BayesFlow: Learning complex stochastic models with invertible neural networks",
+    "date": "March 13, 2020",
+    "target": "posterior",
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "no",
+    "other": "[Code](https://github.com/stefanradev93/cINN)",
+    "link": "https://arxiv.org/abs/2003.06281"
+  },
+  {
+    "authors": [
+      "Joeri Hermans",
+      "Volodimir Begy",
+      "Gilles Louppe"
+    ],
+    "title": "Likelihood-free MCMC with Amortized Approximate Ratio Estimators",
+    "date": "March 10, 2019",
+    "target": "likelihood-ratio",
+    "nn": "classifier-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": "[Code](https://github.com/montefiore-ai/hypothesis)",
+    "link": "https://arxiv.org/abs/1903.04057"
+  },
+  {
+    "authors": [
+      "Lorenzo Pacchiardi",
+      "Ritabrata Dutta"
+    ],
+    "title": "Score Matched Neural Exponential Families for Likelihood-Free Inference",
+    "date": "December 20, 2020",
+    "target": "likelihood",
+    "nn": "any-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": "[Code](https://github.com/LoryPack/SM-ExpFam-LFI)",
+    "link": "https://arxiv.org/abs/2012.10903"
+  },
+  {
+    "authors": [
+      "Samuel Wiqvist",
+      "Jes Frellsen",
+      "Umberto Picchini"
+    ],
+    "title": "Sequential Neural Posterior and Likelihood Approximation",
+    "date": "February 12, 2021",
+    "target": [
+      "likelihood",
+      "posterior"
+    ],
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "[Code](https://github.com/SamuelWiqvist/snpla)",
+      "They use normalizing flows for both the posterior and the likelihood.",
+      "They also optionally use an additional NN for learning summary statistics at the same time."
+    ],
+    "link": "https://arxiv.org/abs/2102.06522"
+  },
+  {
+    "authors": [
+      "Giulio Isacchini",
+      "Natanael Spisak",
+      "Armita Nourmohammad",
+      "Thierry Mora",
+      "Aleksandra M. Walczak"
+    ],
+    "title": "MINIMALIST: Mutual INformatIon Maximization for Amortized Likelihood Inference from Sampled Trajectories",
+    "date": "June 3, 2021",
+    "target": "likelihood-ratio",
+    "nn": "any-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": "[Code](https://github.com/statbiophys/MINIMALIST)",
+    "link": "https://arxiv.org/abs/2106.01808"
+  },
+  {
+    "authors": [
+      "François Rozet",
+      "Gilles Louppe"
+    ],
+    "title": "Arbitrary Marginal Neural Ratio Estimation for Simulation-based Inference",
+    "date": "October 1, 2021",
+    "target": "likelihood-ratio",
+    "nn": "classifier-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": [
+      "Extension of Hermans et al. 2019 (above) which allows to explicitly obtain every possible marginal",
+      "Thanks to this you can plot marginals with no need of posterior sampling",
+      "[Code](https://github.com/francois-rozet/amnre)"
+    ],
+    "link": "https://arxiv.org/abs/2110.00449"
+  },
+  {
+    "authors": [
+      "Jack Simons",
+      "Song Liu",
+      "Mark Beaumont"
+    ],
+    "title": "Variational Likelihood-Free Gradient Descent",
+    "date": "November 22, 2021",
+    "target": "likelihood-ratio",
+    "nn": "classifier-NN",
+    "samples": "Stein Variational Gradient Descent",
+    "sequential": "yes",
+    "other": [
+      "Considers a set of particles which will be a posterior approximation",
+      "The particles are fitted to the posterior by alternating between NN training and Stein Variaional Gradient Descent steps"
+    ],
+    "link": "https://openreview.net/forum?id=svH3klEbuXa"
+  },
+  {
+    "authors": [
+      "Poornima Ramesh",
+      "Jan-Matthis Lueckmann",
+      "Jan Boelts",
+      "Álvaro Tejero-Cantero",
+      "David S. Greenberg",
+      "Pedro J. Gonçalves",
+      "Jakob H. Macke"
+    ],
+    "title": "GATSBI: Generative Adversarial Training for Simulation-Based Inference",
+    "date": "September 29, 2021",
+    "target": "posterior",
+    "nn": "generative-NN",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "Uses Generative Adversarial Networks to represent the posterior.",
+      "[Code](https://github.com/mackelab/gatsbi)"
+    ],
+    "link": "https://openreview.net/forum?id=kR1hC6j48Tp"
+  },
+  {
+    "authors": [
+      "Fredrik Wrede",
+      "Robin Eriksson",
+      "Richard Jiang",
+      "Linda Petzold",
+      "Stefan Engblom",
+      "Andreas Hellander",
+      "Prashant Singh"
+    ],
+    "title": "Robust and integrative Bayesian neural networks for likelihood-free parameter inference",
+    "date": "February 12, 2021",
+    "target": "posterior",
+    "nn": "Bayesian-NN",
+    "samples": "MCMC",
+    "sequential": "yes",
+    "other": [
+      "They bin the parameter values and use a classifier to predict the exact parameter value from data",
+      "The classifier is a BNN and is trained on a set of parameter-data pairs",
+      "When a new observation comes, the posterior is estimated by MCMC on the posterior weights and combining the set of predictions of the classifier into a (discretized) posterior distribution."
+    ],
+    "link": "https://arxiv.org/abs/2102.06521"
+  },
+  {
+    "authors": [
+      "Manuel Glöckler",
+      "Michael Deistler",
+      "Jakob H. Macke"
+    ],
+    "title": "Variational methods for simulation-based inference",
+    "date": "September 29, 2021",
+    "target": [
+      "likelihood",
+      "posterior"
+    ],
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "[Code](https://github.com/mackelab/snvi_repo)",
+      "They consider the standard likelihood or likelihood-ratio approaches and replace MCMC with a variational inference done via normalizing flows",
+      "In this way you get benefits of targeting likelihood with no need of MCMC",
+      "Related to Wiqvist et al. (2021) above."
+    ],
+    "link": "https://openreview.net/forum?id=kZ0UYdhqkNY"
+  },
+  {
+    "authors": [
+      "Yuyang Shi",
+      "Valentin De Bortoli",
+      "George Deligiannidis",
+      "Arnaud Doucet"
+    ],
+    "title": "Conditional Simulation Using Diffusion Schrödinger Bridges",
+    "date": "February 27, 2022",
+    "target": [
+      "posterior"
+    ],
+    "nn": "score-network",
+    "samples": "direct",
+    "sequential": "no",
+    "other": [
+      "They use denoising diffusion models on an extended state space which allows for Likelihood-Free Bayesian Inference"
+    ],
+    "link": "https://arxiv.org/abs/2202.13460"
+  },
+  {
+    "authors": [
+      "Marvin Schmitt",
+      "Paul-Christian Bürkner",
+      "Ullrich Köthe",
+      "Stefan T. Radev"
+    ],
+    "title": "Detecting Model Misspecification in Amortized Bayesian Inference with Neural Networks",
+    "date": "December 16, 2021",
+    "target": [
+      "posterior"
+    ],
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "no",
+    "other": [
+      "[Code](https://github.com/marvinschmitt/ModelMisspecificationBF)",
+      "They add probabilistic structure to learned summary statistics to detect model misspecification with MMD, e.g. for APT/SNPE-C (Greenberg et al., 2019) or BayesFlow (Radev et al., 2020)."
+    ],
+    "link": "https://arxiv.org/abs/2112.08866"
+  },
+  {
+    "authors": [
+      "Alexander Fengler",
+      "Lakshmi N Govindarajan",
+      "Tony Chen",
+      "Michael J Frank"
+    ],
+    "title": "Likelihood approximation networks (LANs) for fast inference of simulation models in cognitive neuroscience",
+    "date": "December 2, 2020",
+    "target": [
+      "likelihood"
+    ],
+    "nn": "any-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": [
+      "[Code](https://github.com/lnccbrown/lans)",
+      "They use NNs to directly approximate likelihood estimates obtained by KDE or binned empirical estimates from repeated model simulations."
+    ],
+    "link": "https://elifesciences.org/articles/65074#fig1"
+  },
+  {
+    "authors": [
+      "Conor Durkan",
+      "Iain Murray",
+      "George Papamakarios"
+    ],
+    "title": "On Contrastive Learning for Likelihood-free Inference",
+    "date": "February 10, 2020",
+    "target": [
+      "likelihood-ratio",
+      "posterior"
+    ],
+    "nn": [
+      "classifier-NN",
+      "normalizing-flows"
+    ],
+    "samples": [
+      "MCMC",
+      "direct"
+    ],
+    "sequential": "yes",
+    "other": [
+      "[Code](https://github.com/conormdurkan/lfi)",
+      "They unify the ratio estimation approach by Hermans et al. (2019) with the sequential neural posterior formulation of Greenberg et al. (2019)."
+    ],
+    "link": "https://arxiv.org/abs/2002.03712"
+  },
+  {
+    "authors": [
+      "Kyle Cranmer",
+      "Johann Brehmer",
+      "Gilles Louppe"
+    ],
+    "title": "The frontier of simulation-based inference",
+    "date": "November 4, 2019",
+    "target": [],
+    "nn": [],
+    "samples": [],
+    "sequential": [],
+    "additional_description": "Review paper",
+    "other": [
+      "They discuss recent advaces in LFI, including NN-based methods."
+    ],
+    "link": "https://arxiv.org/abs/1911.01429"
+  },
+  {
+    "authors": [
+      "Jan-Matthis Lueckmann",
+      "Jan Boelts",
+      "David S. Greenberg",
+      "Pedro J. Gonçalves",
+      "Jakob H. Macke"
+    ],
+    "title": "Benchmarking Simulation-Based Inference",
+    "date": "January 12, 2021",
+    "target": [],
+    "nn": [],
+    "samples": [],
+    "sequential": [],
+    "additional_description": "Benchmark repository",
+    "other": [
+      "[Code](https://github.com/sbi-benchmark/sbibm)",
+      "Benchmark repository for LFI methods.",
+      "They test the performance of LFI methods (including NN-based ones) on a variety of models and data sets.",
+      "Interactive results at [this webpage](https://sbi-benchmark.github.io/)"
+    ],
+    "link": "https://arxiv.org/abs/2101.04653"
+  },
+  {
+    "authors": [
+      "Alvaro Tejero-Cantero",
+      "Jan Boelts",
+      "Michael Deistler",
+      "Jan-Matthis Lueckmann",
+      "Conor Durkan",
+      "Pedro J. Gonçalves",
+      "David S. Greenberg",
+      "Jakob H. Macke"
+    ],
+    "title": "SBI -- A toolkit for simulation-based inference",
+    "date": "July 17, 2020",
+    "target": [],
+    "nn": [],
+    "samples": [],
+    "sequential": [],
+    "additional_description": "Python package",
+    "other": [
+      "[Code](https://github.com/mackelab/sbi)",
+      "A Python toolbox for simulation-based inference methods based on NNs.",
+      "Documentation at [this webpage](https://www.mackelab.org/sbi/)"
+    ],
+    "link": "https://arxiv.org/abs/2007.09114"
+  },
+  {
+    "authors": [
+      "Hanwen Xing",
+      "Geoff Nicholls",
+      "Jeong (Kate) Lee"
+    ],
+    "title": "Distortion estimates for approximate Bayesian inference",
+    "date": "June 19, 2020",
+    "target": [
+      "posterior"
+    ],
+    "nn": [
+      "normalizing-flows"
+    ],
+    "samples": [
+      "direct"
+    ],
+    "sequential": "no",
+    "other": [
+      "They use normalizing flows to build distortion maps which acts on univariate marginals of the approximate posterior to move them closer to the exact posterior, without evaluation of the latter, for a specific observation.",
+      "Can be applied to any posterior approximation, provided simulations from the model are doable."
+    ],
+    "link": "https://arxiv.org/abs/2006.11228"
+  },
+  {
+    "authors": [
+      "Maximilian Dax",
+      "Stephen R. Green",
+      "Jonathan Gair",
+      "Michael Deistler",
+      "Bernhard Schölkopf",
+      "Jakob H. Macke"
+    ],
+    "title": "Group equivariant neural posterior estimation",
+    "date": "November 25, 2021",
+    "target": [
+      "posterior"
+    ],
+    "nn": [
+      "normalizing-flows"
+    ],
+    "samples": [
+      "MCMC"
+    ],
+    "sequential": "no",
+    "other": [
+      "Extension of the Neural Posterior Estimation approach with normalizing flows to incorporate equivariant transformations.",
+      "The methods works without changing the NN architecture, instead transforming the data via another transformation before feeding it into the NN. The transformation is also parametrized by a NN.",
+      "It defines a joint posterior on parameters and transformation and then obtain posterior samples via Gibbs sampling on the two conditionals (each conditional sampling steps do not require MCMC, as normalizing flows are used for the conditional on parameters and blurring via a kernel is used for the transformation conditional)."
+    ],
+    "link": "https://arxiv.org/abs/2111.13139"
+  },
+  {
+    "authors": [
+      "Lorenzo Pacchiardi",
+      "Ritabrata Dutta"
+    ],
+    "title": "Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization",
+    "date": "May 31, 2022",
+    "target": "posterior",
+    "nn": "generative-NN",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "[Code](https://github.com/LoryPack/LFI_gen_networks_Scoring_Rules)",
+      "Same setup as Ramesh et al., but training the generative network via scoring rule minimization rather than adversarial training."
+    ],
+    "link": "https://arxiv.org/abs/2205.15784"
+  },
+  {
+    "authors": [
+      "Pedro L. C. Rodrigues",
+      "Thomas Moreau",
+      "Gilles Louppe",
+      "Alexandre Gramfort"
+    ],
+    "title": "HNPE: Leveraging Global Parameters for Neural Posterior Estimation",
+    "date": "December, 2021",
+    "target": [
+      "posterior"
+    ],
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "[Code](https://github.com/plcrodrigues/HNPE)",
+      "They extend LFI methods using normalizing flows for Bayesian hierarchical models."
+    ],
+    "link": "https://proceedings.neurips.cc/paper/2021/hash/6fbd841e2e4b2938351a4f9b68f12e6b-Abstract.html"
+  },
+  {
+    "authors": [
+      "Stefan T. Radev",
+      "Marco D'Alessandro",
+      "Ulf K. Mertens",
+      "Andreas Voss",
+      "Ullrich Köthe",
+      "Paul-Christian Bürkner"
+    ],
+    "title": "Amortized Bayesian model comparison with evidential deep learning",
+    "date": "March, 2021",
+    "target": [
+      "model-evidence"
+    ],
+    "nn": "classifier-NN",
+    "samples": "-",
+    "sequential": "no",
+    "other": [
+      "[Code](https://github.com/stefanradev93/BayesFlow)",
+      "Way to perform model selection using a NN to estimate the model evidence",
+      "Amortized over the different models, so that they do not need to be fit to the data independently"
+    ],
+    "link": "https://arxiv.org/abs/2004.10629"
+  },
+  {
+    "authors": [
+      "Lynton Ardizzone",
+      "Jakob Kruse",
+      "Sebastian Wirkert",
+      "Daniel Rahner",
+      "Eric W. Pellegrini",
+      "Ralf S. Klessen",
+      "Lena Maier-Hein",
+      "Carsten Rother",
+      "Ullrich Köthe"
+    ],
+    "title": "Analyzing Inverse Problems with Invertible Neural Networks",
+    "date": "February, 2019",
+    "target": [
+      "posterior"
+    ],
+    "nn": "normalizing-flows",
+    "samples": "direct",
+    "sequential": "no",
+    "other": [
+      "Different way to train a normalizing flow for amortized posterior inference with respect to Radev et al. 2021."
+    ],
+    "link": "https://arxiv.org/abs/1808.04730"
+  },
+  {
+    "authors": [
+      "Dustin Tran",
+      "Rajesh Ranganath",
+      "David M. Blei"
+    ],
+    "title": "Hierarchical Implicit Models and Likelihood-Free Variational Inference",
+    "date": "November, 2017",
+    "target": [
+      "posterior"
+    ],
+    "nn": "generative-NN",
+    "samples": "direct",
+    "sequential": "no",
+    "other": [
+      "Trains a generative network for inferring the posterior in hierarchical models.",
+      "For non-hierarchical models, the approach is very similar to GATSBI (Ramesh et al., 2021)"
+    ],
+    "link": "https://arxiv.org/abs/1702.08896"
+  },
+  {
+    "authors": [
+      "Geoffrey Roeder",
+      "Paul K. Grant",
+      "Andrew Phillips",
+      "Neil Dalchau",
+      "Edward Meeds"
+    ],
+    "title": "Efficient Amortised Bayesian Inference for Hierarchical and Nonlinear Dynamical Systems",
+    "date": "October, 2019",
+    "target": [
+      "posterior"
+    ],
+    "nn": "autoencoders",
+    "samples": "direct",
+    "sequential": "no",
+    "other": [
+      "[Code](https://github.com/Microsoft/vi-hds)",
+      "Use variational inference to train autoencoders for posterior inference."
+    ],
+    "link": "https://arxiv.org/abs/1905.12090"
+  },
+  {
+    "authors": [
+      "Yuexi Wang",
+      "Veronika Rockova"
+    ],
+    "title": "Adversarial Bayesian Simulation",
+    "date": "August 25, 2022",
+    "target": [
+      "posterior"
+    ],
+    "nn": "generative-NN",
+    "samples": "direct",
+    "sequential": "yes",
+    "other": [
+      "Uses Generative Adversarial Networks to represent the posterior.",
+      "Similar setup to Ramesh et al. 2022, but uses Wasserstein GANs instead of vanilla GANs and provides more theoretical insights."
+    ],
+    "link": "https://arxiv.org/abs/2208.12113"
+  },
+  {
+    "authors": [
+      "Arnaud Delaunoy",
+      "Joeri Hermans",
+      "François Rozet",
+      "Antoine Wehenkel",
+      "Gilles Louppe"
+    ],
+    "title": "Towards Reliable Simulation-Based Inference with Balanced Neural Ratio Estimation",
+    "date": "August 29, 2022",
+    "target": "likelihood-ratio",
+    "nn": "classifier-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": [
+      "[Code](https://github.com/montefiore-ai/balanced-nre)",
+      "Builds on the likelihood-ratio approach by Hermans et al. 2019 introducing an additional loss term which lead to conservative (instead of overconfident) posterior estimates with small amount of data hence avoiding false conclusions. The learned target converges to the exact posterior as the data size increases."
+    ],
+    "link": "https://arxiv.org/abs/2208.13624"
+  },
+  {
+    "authors": [
+      "Patrick Cannon",
+      "Daniel Ward",
+      "Sebastian M. Schmon"
+    ],
+    "title": "Investigating the Impact of Model Misspecification in Neural Simulation-based Inference",
+    "date": "September 5, 2022",
+    "target": [
+      "likelihood",
+      "posterior",
+      "likelihood-ratio"
+    ],
+    "nn": "normalizing-flows",
+    "samples": [
+      "MCMC",
+      "direct"
+    ],
+    "sequential": "yes",
+    "other": [
+      "They empirically test the performance of neural likelihood-free inference methods with misspecified models, finding that performance is not robust",
+      "They investigate mitigation strategies such as ensemble posteriors and sharpness-aware minimization"
+    ],
+    "link": "https://arxiv.org/abs/2209.01845"
+  },
+  {
+    "authors": [
+      "Tomas Geffner",
+      "George Papamakarios",
+      "Andriy Mnih"
+    ],
+    "title": "Score Modeling for Simulation-based Inference",
+    "date": "September 28, 2022",
+    "target": "posterior",
+    "nn": "score-network",
+    "samples": [
+      "direct"
+    ],
+    "sequential": "no",
+    "other": [
+      "They use diffusion score models to approximate the posterior distribution",
+      "The network is trained on pairs of parameter and simulations, but it allows to sample from the posterior for an arbitrary number of simulations"
+    ],
+    "link": "https://arxiv.org/abs/2209.14249"
+  },
+  {
+    "authors": [
+      "Daniel Ward",
+      "Patrick Cannon",
+      "Mark Beaumont",
+      "Matteo Fasiolo",
+      "Sebastian M. Schmon"
+    ],
+    "title": "Robust Neural Posterior Estimation and Statistical Model Criticism",
+    "date": "October 12, 2022",
+    "target": "posterior",
+    "nn": "normalizing-flows",
+    "samples": [
+      "MCMC"
+    ],
+    "sequential": "no",
+    "other": [
+      "They show Neural Posterior Estimation (NPE) performs poorly under model misspecification.",
+      "As a remedy, they develop a framework incluyding a model criticism and a robust inference components, by explicitly modelling the discrepancy between simulations and observations.",
+      "Their framework requires an MCMC.",
+      "[Code](https://github.com/danielward27/rnpe)"
+    ],
+    "link": "https://arxiv.org/abs/2210.06564"
+  },
+  {
+    "authors": [
+      "Kyoungchul Kong",
+      "Konstantin T. Matchev",
+      "Stephen Mrenna",
+      "Prasanth Shyamsundar"
+    ],
+    "title": "New Machine Learning Techniques for Simulation-Based Inference: InferoStatic Nets, Kernel Score Estimation, and Kernel Likelihood Ratio Estimation",
+    "date": "October 4, 2022",
+    "target": ["likelihood-ratio", "score"],
+    "nn": "??",
+    "samples": [
+      "??"
+    ],
+    "sequential": "??",
+    "other": [
+      "They introduce three different strategies, based on kernels and a scalar function called the inferostatic potential."
+    ],
+    "link": "https://arxiv.org/abs/2210.01680"
+  },
+  {
+    "authors": [
+      "Michael Deistler",
+      "Pedro J. Goncalves",
+      "Jakob H. Macke"
+    ],
+    "title": "Truncated proposals for scalable and hassle-free simulation-based inference",
+    "date": "October 10, 2022",
+    "target": "posterior",
+    "nn": "normalizing-flows",
+    "samples": [
+      "direct"
+    ],
+    "sequential": "yes",
+    "other": [
+      "Performs sequential inference with truncated proposals, sidestepping the optimisation issues of alternative approaches.",
+      "[Code](https://github.com/tsnpeNeurips)"
+    ],
+    "link": "https://arxiv.org/abs/2210.04815"
+  },
+  {
+    "authors": [
+      "Ramis Khabibullin",
+      "Sergei Seleznev"
+    ],
+    "title": "Fast Estimation of Bayesian State Space Models Using Amortized Simulation-Based Inference",
+    "date": "October 13, 2022",
+    "target": "posterior",
+    "nn": "any-NN",
+    "samples": [
+      "direct"
+    ],
+    "sequential": "no",
+    "other": [
+      "Concentrates on the setting of Bayesian state-space models, by learning some marginals of the posterior directly",
+      "They use a normal approximation and learn the mean and standard deviation."
+    ],
+    "link": "https://arxiv.org/abs/2210.07154"
+  },
+  {
+    "authors": [
+      "Louis Sharrock", "Jack Simons", "Song Liu", "Mark Beaumont"
+    ],
+    "title": "Sequential Neural Score Estimation: Likelihood-Free Inference with Conditional Score Based Diffusion Models",
+    "date": "October 10, 2022",
+    "target": ["likelihood", "posterior"],
+    "nn": "score-network",
+    "samples": [
+      "direct", "MCMC"
+    ],
+    "sequential": "yes",
+    "other": [
+      "They introduce sequential algorithms to learn both the likelihood and the posterior using score-based networks."
+    ],
+    "link": "https://arxiv.org/abs/2210.04872"
+  },
+  {
+    "authors": [
+      "Pierre Glaser", "Michael Arbel", "Arnaud Doucet", "Arthur Gretton"
+    ],
+    "title": "Maximum Likelihood Learning of Energy-Based Models for Simulation-Based Inference",
+    "date": "October 26, 2022",
+    "target": "likelihood",
+    "nn": "any-NN",
+    "samples": [
+      "MCMC"
+    ],
+    "sequential": "yes",
+    "other": [
+      "They exploit energy-based models to learn likelihood, in both an amortized and sequential framework",
+      "Their approach is similar to Pacchiardi and Dutta 2022, but they rely on an advanced Maximum Likelihood approach to tune the energy-based model.",
+      "They are also able to exploit standard MCMC for sampling from the amortized version (in contrast to MCMC for doubly-intractable targets needed by Pacchiard and Dutta, 2022, and by the sequential approach).",
+      "[Code](https://github.com/pierreglaser/unle)"
+    ],
+    "link": "https://arxiv.org/abs/2210.14756"
+  },
+  {
+    "authors": [
+      "Benjamin Kurt Miller", "Christoph Weniger", "Patrick Forré"
+    ],
+    "title": "Contrastive Neural Ratio Estimation",
+    "date": "November 27, 2022",
+    "target": "likelihood-ratio",
+    "nn": "any-NN",
+    "samples": [
+      "MCMC"
+    ],
+    "sequential": "no",
+    "other": [
+      "Generalization of Likelihood-free MCMC with Amortized Approximate Ratio Estimators and On Contrastive Learning for Likelihood-free Inference.",
+      "Multi-class ratio estimation but has returns exact likelihood-to-evidence ratio at optimum",
+      "[Code](https://github.com/bkmi/cnre)"
+    ],
+    "link": "https://arxiv.org/abs/2210.06170"
+  },
+  {
+    "authors": [
+      "Benjamin Kurt Miller", "Alex Cole", "Patrick Forré", "Gilles Louppe", "Christoph Weniger"
+    ],
+    "title": "Truncated Marginal Neural Ratio Estimation",
+    "date": "July 2, 2021",
+    "target": "likelihood-ratio",
+    "nn": "any-NN",
+    "samples": [
+      "MCMC",
+      "rejection",
+      "importance"
+    ],
+    "sequential": "yes",
+    "other": [
+      "Introduced a truncation scheme which can be tested for calibration to the prior, despite being sequential. Other sequential methods cannot be tested for calibration.",
+      "Introduced a technique of estimating necessary partially marginalized posterior distributions to increase simulation efficiency.",
+      "[Code](https://github.com/bkmi/tmnre)",
+      "Also see [general implementation](https://github.com/undark-lab/swyft)"
+    ],
+    "link": "https://arxiv.org/abs/2107.01214"
+  },
+  {
+    "authors": [
+      "Benjamin Kurt Miller", "Alex Cole", "Gilles Louppe", "Christoph Weniger"
+    ],
+    "title": "Simulation-efficient marginal posterior estimation with swyft: stop wasting your precious time",
+    "date": "November 27, 2020",
+    "target": "likelihood-ratio",
+    "nn": "any-NN",
+    "samples": [
+      "MCMC",
+      "rejection",
+      "importance"
+    ],
+    "sequential": "yes",
+    "other": [
+      "Explored truncation and estimating marginals as an options to increase simulation-effiency",
+      "Expanded upon in Truncated Marginal Neural Ratio Estimation",
+      "This version of swyft has the code [code](https://github.com/undark-lab/swyft/releases/tag/v0.1.2)"
+    ],
+    "link": "https://arxiv.org/abs/2011.13951"
+  },
+  {
+    "authors": [
+      "Benjamin Kurt Miller", "Alex Cole", "Christoph Weniger", "Francesco Nattino", "Ou Ku", "Meiert W Grootes"
+    ],
+    "title": "swyft: Truncated Marginal Neural Ratio Estimation in Python",
+    "date": "July 19, 2022",
+    "target": "likelihood-ratio",
+    "nn": "any-NN",
+    "samples": [
+      "MCMC",
+      "rejection",
+      "importance"
+    ],
+    "sequential": "yes",
+    "other": [
+      "Created a flexible and general purpose simulation-based inference package which uses Truncated Marginal Neural Ratio Estimation.",
+      "[Toolbox](https://github.com/undark-lab/swyft/)"
+    ],
+    "link": "https://joss.theoj.org/papers/10.21105/joss.04205"
+  },
+  {
+    "authors": [
+      "Volodimir Begy", "Erich Schikuta"
+    ],
+    "title": "Error-Guided Likelihood-Free MCMC",
+    "date": "October 13, 2020",
+    "target": "likelihood-ratio",
+    "nn": "classifier-NN",
+    "samples": "MCMC",
+    "sequential": "no",
+    "other": [
+      "Enables parameter inference for observations that are a given distance away from the true observation",
+      "Use distance of 0 for vanilla inference",
+      "Handy in applications with high-dimensional observations"
+    ],
+    "link": "https://ieeexplore.ieee.org/abstract/document/9533611"
+  }
+]
