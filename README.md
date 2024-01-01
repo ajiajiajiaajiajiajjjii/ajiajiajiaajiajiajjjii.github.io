@@ -2,8 +2,12 @@
 
 ## Plan for minimum viable product
 - [ ] Script to read from [MIUR website](https://bandi.miur.it/) and write to entries.json
-- [ ]  Script to convert that into website with simple filters; we already have a version of this from Lorenzo's project so we only need to  update this.
+  - [ ] Clean up resulting database
+  - [ ] Extract possible filter values and think more about filter structure
+- [ ]  Script to convert that into website with simple filters
+  - [ ] function that filters the database
 - [ ]  Automation: do both of these automatically daily with Github Actions
+  - [ ] think more about server
 
 
 ## Instructions

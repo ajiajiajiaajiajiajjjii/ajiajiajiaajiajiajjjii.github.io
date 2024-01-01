@@ -67,6 +67,8 @@ for index in fellowship_numbers_new:
                     value += line.strip()
                 values_list.append(value)
                 # todo clean up all keys and values
+    # todo add index to the dict
+    # todo also add tipo di borsa
 
     # create dict
     fellowship_dict = dict(zip(keys_list, values_list))
