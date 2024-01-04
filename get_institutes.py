@@ -24,13 +24,6 @@ index = options.index("Tutti")
 institutes = options[:index]  # List with Institutes
 areedisciplinari = options[index + 1:]  # List with Aree Disciplinari
 
-#Abbreviations
-institutes = [option.replace("Instituto", "Inst.") for option in institutes]
-
-#Abbreviations
-areedisciplinari = [option.replace("Scienze", "Sci.") for option in areedisciplinari]
-areedisciplinari = [option.replace("Ingegneria", "Ing.") for option in areedisciplinari]
-
 # Write the options to text files
 with open("support_files/options_institutes.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(institutes))
