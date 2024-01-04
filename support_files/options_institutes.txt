@@ -1,0 +1,241 @@
+Univ. BARI
+Politecnico di BARI
+LUM "G. Degennaro"
+Univ. BASILICATA
+Univ. BERGAMO
+Univ. BOLOGNA
+Univ. BOLZANO
+Univ. BRESCIA
+Univ. CAGLIARI
+Univ. della CALABRIA
+Univ. CAMERINO
+Univ. CASSINO
+LIUC
+Univ. CATANIA
+Univ. CATANZARO
+Univ. CHIETI-PESCARA
+SC. GASTRONOMICHE
+UKE - Kore ENNA
+Univ. FERRARA
+Univ. FIRENZE
+Univ. FOGGIA
+Univ. GENOVA
+INSUBRIA
+Univ. L'AQUILA
+Gran Sasso Science Institute
+Univ. MACERATA
+Univ. MESSINA
+Univ. MILANO
+Univ. MILANO-BICOCCA
+Politecnico MILANO
+Univ. Bocconi MILANO
+Univ. Catt. S.Cuore
+HUMANITAS University
+IULM - MILANO
+S. Raffaele - MI
+Univ. MODENA e R. E.
+Univ. MOLISE
+Univ. NAPOLI
+Univ. CAMPANIA - “L. VANVITELLI”
+"Parthenope" NAPOLI
+"L'Orientale" NAPOLI
+Suor Orsola - NAPOLI
+Univ. PADOVA
+Univ. PALERMO
+Univ. PARMA
+Univ. PAVIA
+Univ. PERUGIA
+Univ. Str. PERUGIA
+PIEMONTE ORIENTALE
+Univ. PISA
+Sc. Norm. Sup. PISA
+Scuola Sup. Mer
+Sc.Sup. S.Anna PISA
+Politecnica MARCHE
+Univ. Mediterranea
+Univ.Stran.REGGIO C.
+Univ. EUROPEA - ROMA
+ROMA "Foro Italico "
+ROMA "La Sapienza"
+ROMA "Tor Vergata"
+Univ. ROMA TRE
+"Campus Bio-Medico"
+LUISS G.Carli ROMA
+Università degli Studi Internazionali di Roma - UNINT
+LUMSA - ROMA
+UNICAMILLUS - Saint Camillus International University of Health Sciences
+LINK CAMPUS University
+Univ. del SALENTO
+Univ. SALERNO
+Univ. SANNIO (BN)
+Univ. SASSARI
+Univ. SIENA
+Univ. Stran. SIENA
+Telematica"E-CAMPUS"
+Telemat. G.FORTUNATO
+Telematica G.Marconi
+San Raffaele Roma
+UNINETTUNO
+Telematica IUL
+Telematica PEGASO
+Telematica UNITELMA
+UNICUSANO - Telematica Roma
+Telemat. MERCATORUM
+Univ. TERAMO
+Univ. TORINO
+Politecnico TORINO
+Univ. TRENTO
+Univ. TRIESTE
+SISSA - TRIESTE
+Univ. TUSCIA
+Univ. UDINE
+Univ. URBINO
+VALLE D'AOSTA
+Univ. VENEZIA
+IUAV - VENEZIA
+Univ. VERONA
+Ist.SCIENZE UMANE-FI
+Scuola IMT Alti Studi - LUCCA
+I.U.S.S. - PAVIA
+CNR - Dipartimento di Scienze Bio-Agroalimentari
+CNR - Dipartimento di Scienze Fisiche e Tecnologie della Materia (DSFTM)
+CNR - ISMA Istituto di Studi sul Mediterraneo Antico
+CNR - Istituto Nanoscienze
+CNR - Istituto Nazionale di Ottica
+CNR - Istituto Officina dei Materiali
+CNR - Istituto Superconduttori, Materiali Innovativi e Dispositivi
+CNR - Istituto dei Sistemi Complessi
+CNR - Istituto dei materiali per l'elettronica ed il magnetismo
+CNR - Istituto di Acustica e Sensoristica "Orso Mario Corbino"   IDASC
+CNR - Istituto di Biologia Cellulare e Neurobiologia
+CNR - Istituto di Bioscienze e Biorisorse
+CNR - Istituto di Chimica della Materia Condensata e di Tecnologie per l'Energia
+CNR - Istituto di Farmacologia Traslazionale
+CNR - Istituto di Informatica Giuridica e Sistemi Giudiziari
+CNR - Istituto di Nanotecnologia (NANOTEC)
+CNR - Istituto di Ricerca su Innovazione e Servizi per lo Sviluppo
+CNR - Istituto di Ricerca sugli Ecosistemi Terrestri
+CNR - Istituto di Ricerca sulla Crescita Economica Sostenibile (IRCRES)
+CNR - Istituto di Scienze Applicate e Sistemi Intelligenti "Eduardo Caianiello"
+CNR - Istituto di Scienze Applicate e Sistemi Intelligenti "Eduardo Caianiello"
+CNR - Istituto di Scienze del Patrimonio Culturale
+CNR - Istituto di Studi sul Mediterraneo
+CNR - Istituto di analisi dei sistemi ed informatica "Antonio Ruberti"
+CNR - Istituto di biochimica delle proteine
+CNR - Istituto di biofisica
+CNR - Istituto di bioimmagini e fisiologia molecolare
+CNR - Istituto di biologia agro-ambientale e forestale
+CNR - Istituto di biologia e biotecnologia agraria
+CNR - Istituto di biologia e patologia molecolari
+CNR - Istituto di biomedicina e di immunologia molecolare "Alberto Monroy"
+CNR - Istituto di biomembrane e bioenergetica
+CNR - Istituto di biomembrane, bioenergetica e biotecnologie molecolari
+CNR - Istituto di biometeorologia
+CNR - Istituto di biostrutture e bioimmagini
+CNR - Istituto di calcolo e reti ad alte prestazioni
+CNR - Istituto di chimica biomolecolare
+CNR - Istituto di chimica dei composti organo metallici
+CNR - Istituto di chimica del riconoscimento molecolare
+CNR - Istituto di chimica e tecnologia dei polimeri
+CNR - Istituto di chimica inorganica e delle superfici
+CNR - Istituto di cristallografia
+CNR - Istituto di elettronica e di ingegneria dell'informazione e delle telecomunicazioni
+CNR - Istituto di fisica applicata "Nello Carrara"
+CNR - Istituto di fisica del plasma "Piero Caldirola"
+CNR - Istituto di fisiologia clinica
+CNR - Istituto di fotonica e nanotecnologie
+CNR - Istituto di genetica e biofisica "Adriano Buzzati Traverso"
+CNR - Istituto di genetica molecolare
+CNR - Istituto di geologia ambientale e geoingegneria
+CNR - Istituto di geoscienze e georisorse
+CNR - Istituto di iNgegneria del Mare
+CNR - Istituto di informatica e telematica
+CNR - Istituto di ingegneria biomedica
+CNR - Istituto di linguistica computazionale
+CNR - Istituto di matematica applicata e tecnologie informatiche
+CNR - Istituto di metodologie chimiche
+CNR - Istituto di metodologie inorganiche e dei plasmi
+CNR - Istituto di metodologie per l'analisi ambientale
+CNR - Istituto di neuroscienze
+CNR - Istituto di ricerca genetica e biomedica
+CNR - Istituto di ricerca per la protezione idrogeologica
+CNR - Istituto di ricerca sui sistemi giudiziari
+CNR - Istituto di ricerca sull'impresa e lo sviluppo
+CNR - Istituto di ricerca sulle acque
+CNR - Istituto di ricerche sulla combustione
+CNR - Istituto di ricerche sulla popolazione e le politiche sociali
+CNR - Istituto di ricerche sulle attività terziarie
+CNR - Istituto di scienza dell'alimentazione
+CNR - Istituto di scienza e tecnologia dei materiali ceramici
+CNR - Istituto di scienza e tecnologie dell'informazione "Alessandro Faedo"
+CNR - Istituto di scienze dell'atmosfera e del clima
+CNR - Istituto di scienze delle produzioni alimentari
+CNR - Istituto di scienze e tecnologie della cognizione
+CNR - Istituto di scienze e tecnologie molecolari
+CNR - Istituto di scienze marine
+CNR - Istituto di scienze neurologiche
+CNR - Istituto di storia dell'Europa mediterranea
+CNR - Istituto di struttura della materia
+CNR - Istituto di studi giuridici internazionali
+CNR - Istituto di studi sui sistemi intelligenti per l'automazione
+CNR - Istituto di studi sui sistemi regionali federali e sulle autonomie "Massimo Severo Giannini"
+CNR - Istituto di studi sulle società del mediterraneo
+CNR - Istituto di tecnologie avanzate per l'energia "Nicola Giordano"
+CNR - Istituto di tecnologie biomediche
+CNR - Istituto di teoria e tecniche dell'informazione giuridica
+CNR - Istituto motori
+CNR - Istituto opera del vocabolario italiano
+CNR - Istituto per i Polimeri, Compositi e Biomateriali
+CNR - Istituto per i Sistemi Biologici (ISB)
+CNR - Istituto per i beni archeologici e monumentali
+CNR - Istituto per i materiali compositi e biomedici
+CNR - Istituto per i processi chimico-fisici
+CNR - Istituto per i sistemi agricoli e forestali del mediterraneo
+CNR - Istituto per il lessico intellettuale europeo e la storia delle idee
+CNR - Istituto per il rilevamento elettromagnetico dell'ambiente
+CNR - Istituto per il sistema produzione animale in ambiente Mediterraneo
+CNR - Istituto per l'ambiente marino costiero
+CNR - Istituto per l'endocrinologia e l'oncologia "Gaetano Salvatore"
+CNR - Istituto per l'energetica e le interfasi
+CNR - Istituto per la Protezione Sostenibile delle Piante
+CNR - Istituto per la Ricerca e l’Innovazione Biomedica (IRIB)
+CNR - Istituto per la Scienza e la Tecnologia dei Plasmi
+CNR - Istituto per la conservazione e valorizzazione dei beni culturali
+CNR - Istituto per la dinamica dei processi ambientali
+CNR - Istituto per la microelettronica e microsistemi
+CNR - Istituto per la protezione delle piante
+CNR - Istituto per la sintesi organica e la fotoreattività
+CNR - Istituto per la storia del pensiero filosofico e scientifico moderno
+CNR - Istituto per la tecnologia delle membrane
+CNR - Istituto per la valorizzazione del legno e delle specie arboree
+CNR - Istituto per le Risorse Biologiche e le Biotecnologie Marine
+CNR - Istituto per le applicazioni del calcolo "Mauro Picone"
+CNR - Istituto per le macchine agricole e movimento terra
+CNR - Istituto per le tecnologie applicate ai beni culturali
+CNR - Istituto per le tecnologie della costruzione
+CNR - Istituto per le tecnologie didattiche
+CNR - Istituto per lo studio degli ecosistemi
+CNR - Istituto per lo studio degli impatti Antropici e Sostenibilità in ambiente marino
+CNR - Istituto per lo studio dei materiali nanostrutturati
+CNR - Istituto per lo studio delle macromolecole
+CNR - Istituto sull'inquinamento atmosferico
+Consiglio Nazionale delle Ricerche
+Consorzio per l'Area di Ricerca Scientifica e Tecnologica di Trieste
+ENEA Agenzia nazionale per le nuove tecnologie, l'energia e lo sviluppo economico sostenibile
+INFN - Gran Sasso Science Institute
+Istituto Italiano di Studi Germanici
+Istituto Nazionale Geofisica e Vulcanologia
+Istituto Nazionale di Alta Matematica "Francesco Severi"
+Istituto Nazionale di Astrofisica
+Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa
+Istituto Nazionale di Fisica Nucleare
+Istituto Nazionale di Oceanografia e di Geofisica Sperimentale
+Istituto Nazionale di Ricerca Metrologica
+Istituto di Scienze Polari
+Istituto di Scienze e Tecnologie per l'Energia e la Mobilità Sostenibili
+Istituto di Sistemi e Tecnologie Industriali Intelligenti per il Manifatturiero Avanzato
+Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione
+Istituto per la BioEconomia
+Laboratorio Europeo di Spettroscopia non Lineare
+Museo storico della Fisica e Centro Studi e Ricerche "Enrico Fermi"
+Stazione Zoologica "Anton Dohrn" di Napoli

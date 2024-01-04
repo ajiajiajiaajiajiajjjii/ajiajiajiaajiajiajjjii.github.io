@@ -1,0 +1,99 @@
+Univ. BARI; Puglia
+Politecnico di BARI; Puglia
+LUM "G. Degennaro"; Puglia
+Univ. BASILICATA; Basilicata
+Univ. BERGAMO; Lombardia
+Univ. BOLOGNA; Emilia-Romagna
+Univ. BOLZANO; Trentino-Alto Adige/Südtirol
+Univ. BRESCIA; Lombardia
+Univ. CAGLIARI; Sardegna
+Univ. della CALABRIA; Calabria
+Univ. CAMERINO; Marche
+Univ. CASSINO; Lazio
+LIUC; Lombardia
+Univ. CATANIA; Sicilia
+Univ. CATANZARO; Calabria
+Univ. CHIETI-PESCARA; Abruzzo
+SC. GASTRONOMICHE; Piemonte
+UKE - Kore ENNA; Sicilia
+Univ. FERRARA; Emilia-Romagna
+Univ. FIRENZE; Toscana
+Univ. FOGGIA; Puglia
+Univ. GENOVA; Liguria
+INSUBRIA; Lombardia
+Univ. L'AQUILA; Abruzzo
+Gran Sasso Science Institute; Abruzzo
+Univ. MACERATA; Marche
+Univ. MESSINA; Sicilia
+Univ. MILANO; Lombardia
+Univ. MILANO-BICOCCA; Lombardia
+Politecnico MILANO; Lombardia
+Univ. Bocconi MILANO; Lombardia
+Univ. Catt. S.Cuore; Lombardia
+HUMANITAS University; Lombardia
+IULM - MILANO; Lombardia
+S. Raffaele - MI; Lombardia
+Univ. MODENA e R. E.; Emilia-Romagna
+Univ. MOLISE; Molise
+Univ. NAPOLI; Campania
+Univ. CAMPANIA - “L. VANVITELLI”; Campania
+"Parthenope" NAPOLI; Campania
+"L'Orientale" NAPOLI; Campania
+Suor Orsola - NAPOLI; Campania
+Univ. PADOVA; Veneto
+Univ. PALERMO; Sicilia
+Univ. PARMA; Emilia-Romagna
+Univ. PAVIA; Lombardia
+Univ. PERUGIA; Umbria
+Univ. Str. PERUGIA; Umbria
+PIEMONTE ORIENTALE; Piemonte
+Univ. PISA; Toscana
+Sc. Norm. Sup. PISA; Toscana
+Scuola Sup. Mer; Toscana
+Sc.Sup. S.Anna PISA; Toscana
+Politecnica MARCHE; Marche
+Univ. Mediterranea; Calabria
+Univ.Stran.REGGIO C.; Calabria
+Univ. EUROPEA - ROMA; Lazio
+ROMA "Foro Italico "; Lazio
+ROMA "La Sapienza"; Lazio
+ROMA "Tor Vergata"; Lazio
+Univ. ROMA TRE; Lazio
+"Campus Bio-Medico"; Lazio
+LUISS G.Carli ROMA; Lazio
+Università degli Studi Internazionali di Roma - UNINT; Lazio
+LUMSA - ROMA; Lazio
+UNICAMILLUS - Saint Camillus International University of Health Sciences; Lazio
+LINK CAMPUS University; Lazio
+Univ. del SALENTO; Puglia
+Univ. SALERNO; Campania
+Univ. SANNIO (BN); Campania
+Univ. SASSARI; Sardegna
+Univ. SIENA; Toscana
+Univ. Stran. SIENA; Toscana
+Telematica"E-CAMPUS";
+Telemat. G.FORTUNATO; 
+Telematica G.Marconi; 
+San Raffaele Roma; Lazio
+UNINETTUNO; 
+Telematica IUL; 
+Telematica PEGASO; 
+Telematica UNITELMA; 
+UNICUSANO - Telematica Roma; 
+Telemat. MERCATORUM; 
+Univ. TERAMO; Abruzzo
+Univ. TORINO; Piemonte
+Politecnico TORINO; Piemonte
+Univ. TRENTO; Trentino-Alto Adige/Südtirol
+Univ. TRIESTE; Friuli-Venezia Giulia
+SISSA - TRIESTE; Friuli-Venezia Giulia
+Univ. TUSCIA; Lazio
+Univ. UDINE; Friuli-Venezia Giulia
+Univ. URBINO; Marche
+VALLE D'AOSTA; Valle d'Aosta/Vallée d'Aoste
+Univ. VENEZIA; Veneto
+IUAV - VENEZIA; Veneto
+Univ. VERONA; Veneto
+Ist.SCIENZE UMANE-FI; Toscana
+Scuola IMT Alti Studi - LUCCA; Toscana
+I.U.S.S. - PAVIA; Lombardia
