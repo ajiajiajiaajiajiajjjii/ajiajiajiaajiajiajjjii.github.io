@@ -130,13 +130,13 @@ for url, opening_type in zip(urls, types):
     # print(len(fellowship_numbers_new))
     # print(fellowship_numbers_new[0:10])
 
-    # save this list in f"{output_directory}/fellowship_numbers_new.txt"
-    save_list_to_file(fellowship_numbers_new, output_directory + f"/{opening_type}_numbers_new.txt")
-
-    # read the list from "downloaded_pages/fellowship_numbers_old.txt"
+    # read the list from "downloaded_pages/fellowship_numbers_current.txt"
     # and compare it with the new list
     # if there are differences, download the html pages of the new fellowships
-    fellowship_numbers_old = read_list_from_file(output_directory + f"/{opening_type}_numbers_old.txt")
+    fellowship_numbers_old = read_list_from_file(output_directory + f"/{opening_type}_numbers_current.txt")
+
+    # save the new list in f"{output_directory}/fellowship_numbers_current.txt"
+    save_list_to_file(fellowship_numbers_new, output_directory + f"/{opening_type}_numbers_current.txt")
 
     # find the difference
     fellowship_numbers_diff = list(set(fellowship_numbers_new) - set(fellowship_numbers_old))
