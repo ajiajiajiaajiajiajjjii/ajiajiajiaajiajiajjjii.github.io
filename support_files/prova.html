@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Italian Regions</title>
+	<style>
+		.hidden {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Italian Regions</h1>
+	<ul>
+		<li>Abruzzo</li>
+		<li>Basilicata</li>
+		<li>Calabria</li>
+		<li>Campania</li>
+		<li class="hidden">Emilia-Romagna</li>
+		<li class="hidden">Friuli-Venezia Giulia</li>
+		<li class="hidden">Lazio</li>
+		<li class="hidden">Liguria</li>
+		<li class="hidden">Lombardy</li>
+		<li class="hidden">Marche</li>
+		<li class="hidden">Molise</li>
+		<li class="hidden">Piemonte</li>
+		<li class="hidden">Puglia</li>
+		<li class="hidden">Sardegna</li>
+		<li class="hidden">Sicilia</li>
+		<li class="hidden">Trentino-Alto Adige/South Tyrol</li>
+		<li class="hidden">Toscana</li>
+		<li class="hidden">Umbria</li>
+		<li class="hidden">Valle d'Aosta</li>
+		<li class="hidden">Veneto</li>
+	</ul>
+	<a href="#" onclick="showMore()">Show more (20)</a>
+	<a href="#" onclick="showLess()" class="hidden">Show less (4)</a>
+	<script>
+		function showMore() {
+			var hiddenRegions = document.querySelectorAll(".hidden");
+			for (var i = 0; i < hiddenRegions.length; i++) {
+				hiddenRegions[i].style.display = "list-item";
+			}
+			document.querySelector("a").style.display = "none";
+			document.querySelector("a.hidden").style.display = "inline";
+		}
+		function showLess() {
+			var hiddenRegions = document.querySelectorAll(".hidden");
+			for (var i = 0; i < hiddenRegions.length; i++) {
+				hiddenRegions[i].style.display = "none";
+			}
+			document.querySelector("a.hidden").style.display = "none";
+			document.querySelector("a").style.display = "inline";
+		}
+	</script>
+</body>
+</html>

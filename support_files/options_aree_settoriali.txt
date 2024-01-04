@@ -1,14 +1,14 @@
-Ingegneria civile ed Architettura
-Ingegneria industriale e dell'informazione
-Scienze agrarie e veterinarie
-Scienze biologiche
-Scienze chimiche
-Scienze dell'antichità, filologico-letterarie e storico-artistiche
-Scienze della Terra
-Scienze economiche e statistiche
-Scienze fisiche
-Scienze giuridiche
-Scienze matematiche e informatiche
-Scienze mediche
-Scienze politiche e sociali
-Scienze storiche, filosofiche, pedagogiche e psicologiche
+Ing. civile ed Architettura
+Ing. industriale e dell'informazione
+Sci. agrarie e veterinarie
+Sci. biologiche
+Sci. chimiche
+Sci. dell'antichità, filologico-letterarie e storico-artistiche
+Sci. della Terra
+Sci. economiche e statistiche
+Sci. fisiche
+Sci. giuridiche
+Sci. matematiche e informatiche
+Sci. mediche
+Sci. politiche e sociali
+Sci. storiche, filosofiche, pedagogiche e psicologiche
