@@ -7,6 +7,25 @@
 			display: block;
 			margin-bottom: -3px;
 		}
+		.filter-header {
+			background-color: #fffcb8ff; /* Set background color */
+            color: #000000ff; /* Set text color */
+            padding: 10px; /* Add padding */
+            text-align: left;
+			font-size: 20px;
+		}
+		.filter-container{
+            background-color: #fefff1ff;
+            border: 1px solid #ccc; /* Add a border */
+            padding: 10px; /* Add padding inside the container */
+            margin: 0px; /* Add margin outside the container */
+			max-width: 250px;
+            max-height: 600px;
+            overflow-x: auto; /* Enable horizontal scrolling */
+            overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+            white-space: nowrap; /* Prevent text from wrapping */
+			resize: both; /* Allow user to resize the container */
+		}
 		.listings {
 			display: inline-block;
 			margin-left: 20px;
@@ -18,7 +37,7 @@
 	<h1>Filters</h1>
 	<div class="filter-container">
 		<div class="filter-category">
-			<h2>Area Settoriale</h2>
+			<h2 class="filter-header">Area Settoriale</h2>
 			<form>
 				<label class="filter"><input type="checkbox" name="area-settoriale" value="Ingegneria civile ed Architettura"> Ingegneria civile ed Architettura</label>
 				<label class="filter"><input type="checkbox" name="area-settoriale" value="Ingegneria industriale e dell'informazione"> Ingegneria industriale e dell'informazione</label>
@@ -39,7 +58,7 @@
 	</div>
 	<div class="filter-container">
 		<div class="filter-category">
-			<h2>Regione</h2>
+			<h2 class="filter-header">Regione</h2>
 			<form>
 				<label class="filter"><input type="checkbox" name="region" value="Abruzzo"> Abruzzo</label>
 				<label class="filter"><input type="checkbox" name="region" value="Basilicata"> Basilicata</label>
@@ -66,7 +85,7 @@
 	</div>
 	<div class="filter-container">
 		<div class="filter-category">
-			<h2>Istituto</h2>
+			<h2 class="filter-header">Istituto</h2>
 			<form>
 				<label class="filter"><input type="checkbox" name="institute" value="Univ. BARI"> Univ. BARI</label>
 				<label class="filter"><input type="checkbox" name="institute" value="Politecnico di BARI"> Politecnico di BARI</label>
