@@ -142,8 +142,6 @@ for url, opening_type in zip(urls, types):
     fellowship_numbers_diff = list(set(fellowship_numbers_new) - set(fellowship_numbers_old))
 
     print(fellowship_numbers_diff)
-    # todo remove this temporary [0:2] used to speed up debug
-    fellowship_numbers_diff = fellowship_numbers_diff[0:2]
 
     # download the pages that have been added now. Notice this does not re-download the previous ones so we do not know
     # if things have changed
@@ -154,6 +152,7 @@ for url, opening_type in zip(urls, types):
     fellowship_dict_list = []
 
     for index in fellowship_numbers_diff:
+        print(index)
         # read the file "downloaded_pages/fellowships/{index}"
         filename = f"{output_directory}/{opening_type}s/{index}.html"
 
@@ -192,7 +191,7 @@ for url, opening_type in zip(urls, types):
                         value = value.split(">")[1]
                     # value = value.replace("class=justify livelink\">", "")
                     # if href, only keep things between > and </a>
-                    if "href" in value:
+                    if "<a href" in value:
                         value = value.split(">")[1].split("</a>")[0][:-3].strip()
                     # accents
                     value = modify_all_accents(value)
@@ -215,7 +214,7 @@ for url, opening_type in zip(urls, types):
             keys_list.append("index")
             values_list.append(index)
 
-        print(len(keys_list))
+        # print(len(keys_list))
         # create dict
         fellowship_dict = dict(zip(keys_list, values_list))
         fellowship_dict_list.append(fellowship_dict)
@@ -229,8 +228,8 @@ for url, opening_type in zip(urls, types):
     df_old = pd.read_json(f"{opening_type}s.json", orient="records")
 
     # discard those for which deadline is passed:
-    # todo this fails as I will need to bootstrap by downloading all the pages at a given time.
     df_old = df_old[df_old['Data di scadenza del bando'] > datetime.now()]
+    # todo also need to delete the old files (or move to a different folder for archiving)
 
     # merge
     df = pd.concat([df_old, df_diff])
