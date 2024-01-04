@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 # Read the HTML file
-with open("downloaded_html/cercaFellowship", "r", encoding="utf-8") as f:
+with open("downloaded_html/cercaFellowship.html", "r", encoding="utf-8") as f:
     html = f.read()
 
 # Parse the HTML using BeautifulSoup
@@ -21,9 +21,8 @@ options = options[4:]
 # Find the index of the first occurrence of "Tutti", to separate the institutes from the Aree Disciplinari
 index = options.index("Tutti")
 
-
-institutes = options[:index]                #List with Institutes
-areedisciplinari = options[index+1:]        #List with Aree Disciplinari
+institutes = options[:index]  # List with Institutes
+areedisciplinari = options[index + 1:]  # List with Aree Disciplinari
 
 # Write the options to text files
 with open("support_files/options_institutes.txt", "w", encoding="utf-8") as f:
