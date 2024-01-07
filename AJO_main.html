@@ -3,19 +3,53 @@
 <head>
 	<title>Filtri</title>
 	<style>
+
+		/* Style the navigation bar */
+		.navbar {
+			background-color: #beffddff;
+			overflow: hidden;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		/* Style the logo */
+		.navbar img {
+			float: left;
+			height: 40px;
+			padding: 10px;
+			width: auto;
+		}
+
+		/* Style the links */
+		.navbar a {
+			color: black;
+			float: right;
+			font-size: 20px;
+			padding: 14px 16px;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		/* Change the color of links on hover */
+		.navbar a:hover {
+			background-color: #008d44ff;
+			color: white;
+		}
+
 		.filter {
 			display: block;
 			margin-bottom: -3px;
 		}
 		.filter-header {
-			background-color: #fffcb8ff; /* Set background color */
-            color: #000000ff; /* Set text color */
+			background-color: #008d44ff; /* Set background color */
+            color: white; /* Set text color */
             padding: 10px; /* Add padding */
             text-align: left;
 			font-size: 20px;
 		}
 		.filter-container{
-            background-color: #fefff1ff;
+            background-color: #beffddff;
             border: 1px solid #ccc; /* Add a border */
             padding: 10px; /* Add padding inside the container */
             margin: 0px; /* Add margin outside the container */
@@ -31,9 +65,23 @@
 			margin-left: 20px;
 			vertical-align: top;
 		}
+
+		
+		h1 {
+			padding-top: 60px; /* Add space between the navigation bar and the header */
+		}
 	</style>
 </head>
 <body>
+
+	<!-- Navigation bar -->
+	<div class="navbar">
+		<img src="images/AJI_logo_long.svg">
+		<a href="#">Contacts</a>
+		<a href="#">About</a>
+		<a href="#">Login</a>
+	</div>
+
 	<h1>Filters</h1>
 	<div class="filter-container">
 		<div class="filter-category">
@@ -53,9 +101,11 @@
 				<label class="filter"><input type="checkbox" name="area-settoriale" value="Scienze mediche"> Scienze mediche</label>
 				<label class="filter"><input type="checkbox" name="area-settoriale" value="Scienze politiche e sociali"> Scienze politiche e sociali</label>
 				<label class="filter"><input type="checkbox" name="area-settoriale" value="Scienze storiche, filosofiche, pedagogiche e psicologiche"> Scienze storiche, filosofiche, pedagogiche e psicologiche</label>
+
 			</form>
 		</div>
 	</div>
+
 	<div class="filter-container">
 		<div class="filter-category">
 			<h2 class="filter-header">Regione</h2>
@@ -80,6 +130,7 @@
 				<label class="filter"><input type="checkbox" name="region" value="Umbria"> Umbria</label>
 				<label class="filter"><input type="checkbox" name="region" value="Valle d'Aosta"> Valle d'Aosta</label>
 				<label class="filter"><input type="checkbox" name="region" value="Veneto"> Veneto</label>
+
 			</form>
 		</div>
 	</div>
@@ -328,6 +379,7 @@
 				<label class="filter"><input type="checkbox" name="institute" value="Laboratorio Europeo di Spettroscopia non Lineare"> Laboratorio Europeo di Spettroscopia non Lineare</label>
 				<label class="filter"><input type="checkbox" name="institute" value="Museo storico della Fisica e Centro Studi e Ricerche "Enrico Fermi""> Museo storico della Fisica e Centro Studi e Ricerche "Enrico Fermi"</label>
 				<label class="filter"><input type="checkbox" name="institute" value="Stazione Zoologica "Anton Dohrn" di Napoli"> Stazione Zoologica "Anton Dohrn" di Napoli</label>
+
 			</form>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 import os
 
 # Read the HTML file with placeholders
-with open("support_files/AJO_main_with_placeholder.html", "r") as f:
+with open("AJO_main_with_placeholder.html", "r") as f:
     html = f.read()
 
 #Read possible options for Aree Settoriali, Institutes, and Regions
@@ -33,5 +33,5 @@ html = html.replace("<placeholder_filters_area_settoriale>", options_areesettori
 html = html.replace("<placeholder_filters_institutes>", options_institutes_html)
 
 # Write the modified HTML to a new file
-with open("support_files/AJO_main.html", "w") as f:
+with open("AJO_main.html", "w") as f:
     f.write(html)
