@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filtri</title>
+    <style>
+        /* Style the navigation bar */
+        :root {
+            --navbar-height: 48px; /* Set the total height of the navigation bar */
+        }
+
+        .navbar {
+            background-color: #add8e6; /* Light blue color */
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1; /* Ensure the navigation bar is above other elements */
+            height: var(--navbar-height);
+        }
+
+        /* Style the logo */
+        .navbar img.logo {
+            height: 40px; /* Adjust the height of the logo image */
+            vertical-align: middle; /* Vertically align the image */
+            margin-top: calc((var(--navbar-height) - 40px) / 2); /* Center vertically */
+            padding: 4px; /* Add padding to the logo */
+            width: auto;
+        }
+
+        /* Style the language switch buttons */
+        .navbar img.language {
+            cursor: pointer;
+            height: 24px; /* Adjust the height of the language switch buttons */
+            margin: 12px; /* Adjust the margin to position the buttons */
+            float: right;
+        }
+
+        /* Style the links */
+        .navbar a {
+            color: black;
+            float: right;
+            font-size: 20px;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        /* Change the color of links on hover */
+        .navbar a:hover {
+            background-color: #000080; /* Dark blue color on hover */
+            color: white;
+        }
+
+        /* Container with light green color on the left */
+        .left-container {
+            background-color: #90ee90; /* Light green color */
+            float: left;
+            width: 20%; /* Adjust the width as needed */
+            height: 100vh; /* Fixed height to enable the scrollbar */
+            margin-top: calc(var(--navbar-height) + 5px); /* Shift downwards */
+            margin-bottom: 5px; /* Add 5px margin on the bottom */
+            border-radius: 10px; /* Rounded corners */
+            overflow-y: auto; /* Add vertical scrollbar */
+            text-align: left; /* Left-align text */
+            padding: 10px; /* Add padding to the left and right */
+        }
+
+        /* Container with light red color on the right */
+        .right-container {
+            background-color: #ffcccb; /* Light red color */
+            float: right;
+            width: 20%; /* Adjust the width as needed */
+            height: 100vh; /* Full height of the viewport */
+            margin-top: calc(var(--navbar-height) + 5px); /* Shift downwards, same as the green box */
+            margin-bottom: 5px; /* Add 5px margin on the bottom */
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Ensure rounded corners are applied properly */
+            text-align: center; /* Center text */
+            padding: 10px; /* Add padding to the left and right */
+        }
+
+        /* Headers in green and red containers */
+        .container-header {
+            font-size: 24px; /* Adjust the font size */
+            margin-top: 10px; /* Adjust the top margin */
+            color: #333; /* Set text color */
+            text-align: center; /* Center-align the text */
+        }
+
+        /* Text below the header in the red container */
+        .container-text {
+            font-size: 18px; /* Adjust the font size */
+            font-weight: normal; /* Set normal font weight */
+            margin-top: 10px; /* Adjust the top margin */
+        }
+
+        /* Bolded text in the red container */
+        .bold-text {
+            font-weight: bold; /* Set bold font weight */
+        }
+
+        /* Additional space above "Iscriviti alla mailing list" and "Seguici su X" */
+        .additional-space {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        h1 {
+            padding-top: 40px; /* Add space between the navigation bar and the header */
+        }
+
+        /* Optional styling for better visual representation */
+        .toggleContainer {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px; /* Add margin for separation between groups */
+        }
+
+        .toggleElementContainer {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          margin-right: 10px;
+        }
+
+        .toggleElement {
+          padding: 0; /* Remove padding */
+          border: none; /* Remove border */
+          background: none; /* Remove background */
+          margin-right: 5px; /* Add margin to the right */
+        }
+
+        .optionsText {
+          font-size: 16px;
+          margin-left: 5px; /* Add margin to the left */
+        }
+
+        .optionsList {
+          display: none;
+          margin-top: 0; /* No top margin */
+          list-style-type: none;
+          padding: 0;
+        }
+
+        .optionsList li {
+          margin-bottom: 1px; /* Reduce bottom margin */
+          margin-left: 0; /* Left-align the list items */
+        }
+
+        .optionsList li:first-child {
+          margin-top: -8px; /* Add negative margin to reduce spacing for the first item */
+        }
+
+        .optionCheckbox {
+          margin-right: 2px; /* Adjust margin to bring checkbox and label closer */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <img src="images/AJI_logo_long.svg" class="logo">
+        <a href="contacts.html">Contacts</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+        <!-- Language switch buttons -->
+        <img src="Images/IT_icon.png" class="language" onclick="switchLanguage('italian')" alt="Italian">
+        <img src="Images/EN_icon.png" class="language" onclick="switchLanguage('english')" alt="English">
+    </div>
+
+    <!-- Container with light green color on the left -->
+    <div class="left-container">
+        <h2 class="container-header" style="margin-top: 5px;">Filtri</h2>
+        
+<placeholder_filters>
+
+    </div>
+
+    <!-- Container with light red color on the right -->
+    <div class="right-container">
+        <h2 class="container-header" style="margin-top: 5px;">Stay tuned!</h2>
+        <p class="container-text">
+            <a href="registration.html" class="bold-text">Registrati</a><br>
+            e salva i tuoi filtri<br>
+            <span class="additional-space"></span><!-- Additional space -->
+            <a href="mailing_list.html" class="bold-text">Iscriviti alla mailing list</a><br>
+            e ricevi notifiche su nuovi bandi rilevanti per te<br>
+            <span class="additional-space"></span><!-- Additional space -->
+            <a href="X.html" class="bold-text">Seguici su X</a><br>
+            dove pubbliciziamo nuovi bandi aperti, divisi per aree settoriali.
+        </p>
+        <!-- Add content for the right container if needed -->
+    </div>
+
+    <script>
+        function switchLanguage(language) {
+            // Implement language switch logic here
+            alert("Switching to " + language + " version.");
+        }
+    </script>
+
+    <!-- Function to toggle the arrow next to the filter cathegories, done with two images -->
+    <script>
+        function toggleOptions(optionsListId, arrowId) {
+        var toggleElement = document.getElementById(arrowId);
+        var optionsList = document.querySelector('.' + optionsListId);
+    
+        if (optionsList.style.display === 'none' || optionsList.style.display === '') {
+            toggleElement.src = 'Images/DownArrowShort.svg';
+            optionsList.style.display = 'block';
+        } else {
+            toggleElement.src = 'Images/RightArrowShort.svg';
+            optionsList.style.display = 'none';
+        }
+        }
+    </script>
+
+</body>
+</html>

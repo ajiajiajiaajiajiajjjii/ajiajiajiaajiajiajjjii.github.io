@@ -1,0 +1,5 @@
+tipo_posizione
+aree_settoriali
+regions
+institutes
+tipo_istituto
